@@ -1,0 +1,44 @@
+body {
+	padding: 20px;
+	margin: 0;
+}
+.container {
+	background-color: #999;
+}
+.container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.team,.person,.introduce{
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+}
+.team {
+	width: 160px;
+	float: left;
+	margin-right: -242px;
+}
+.introduce{
+	float: left;
+	margin-left: 242px;
+	margin-right: 162px;
+}
+.person {
+	width: 80px;
+	float: right;
+	margin-left: -162px;
+}
+.team p {
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+.person img {
+	margin-bottom: 20px;
+}
+.person img:last-child {
+	margin-bottom: 0px;
+}
